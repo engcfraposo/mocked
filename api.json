@@ -1,116 +1,39 @@
 {
-    "approved":[
-    {
-        "id": 1,
-        "description": "Dermocosméticos - Limpeza e Hidratação",
-        "bandeira": "Drogasil",
-        "prioridade": "0",
-        "valor": "R$ 100,00",
-        "valorMinimo": null,
-        "pontos": 300,
-        "dataInicio": "04/01/2021",
-        "dataFim": "04/01/2021"
-    },
-    {
-        "id": 2,
-        "description": "Dermocosméticos - Limpeza e Hidratação",
-        "bandeira": "Drogasil",
-        "prioridade": "0",
-        "valor": "R$ 100,00",
-        "valorMinimo": null,
-        "pontos": 300,
-        "dataInicio": "04/01/2021",
-        "dataFim": "04/01/2021"
-    },
-    {
-        "id": 3,
-        "description": "Dermocosméticos - Limpeza e Hidratação",
-        "bandeira": "Drogasil",
-        "prioridade": "0",
-        "valor": "R$ 100,00",
-        "valorMinimo": null,
-        "pontos": 300,
-        "dataInicio": "04/01/2021",
-        "dataFim": "04/01/2021"
-    },
-    {
-        "id": 4,
-        "description": "Dermocosméticos - Limpeza e Hidratação",
-        "bandeira": "Drogasil",
-        "prioridade": "0",
-        "valor": "R$ 100,00",
-        "valorMinimo": null,
-        "pontos": 300,
-        "dataInicio": "04/01/2021",
-        "dataFim": "04/01/2021"
-    },
-    {
-        "id": 5,
-        "description": "Dermocosméticos - Limpeza e Hidratação",
-        "bandeira": "Drogasil",
-        "prioridade": "0",
-        "valor": "R$ 100,00",
-        "valorMinimo": null,
-        "pontos": 300,
-        "dataInicio": "04/01/2021",
-        "dataFim": "04/01/2021"
-    }
-    ],
-    "imported":[
-        {
-            "id": 1,
-            "description": "Dermocosméticos - Limpeza e Hidratação",
-            "bandeira": "Drogasil",
-            "prioridade": "0",
-            "valor": "R$ 100,00",
-            "valorMinimo": null,
-            "pontos": 300,
-            "dataInicio": "04/01/2021",
-            "dataFim": "04/01/2021"
-        },
-        {
-            "id": 2,
-            "description": "Dermocosméticos - Limpeza e Hidratação",
-            "bandeira": "Drogasil",
-            "prioridade": "0",
-            "valor": "R$ 100,00",
-            "valorMinimo": null,
-            "pontos": 300,
-            "dataInicio": "04/01/2021",
-            "dataFim": "04/01/2021"
-        },
-        {
-            "id": 3,
-            "description": "Dermocosméticos - Limpeza e Hidratação",
-            "bandeira": "Drogasil",
-            "prioridade": "0",
-            "valor": "R$ 100,00",
-            "valorMinimo": null,
-            "pontos": 300,
-            "dataInicio": "04/01/2021",
-            "dataFim": "04/01/2021"
-        },
-        {
-            "id": 4,
-            "description": "Dermocosméticos - Limpeza e Hidratação",
-            "bandeira": "Drogasil",
-            "prioridade": "0",
-            "valor": "R$ 100,00",
-            "valorMinimo": null,
-            "pontos": 300,
-            "dataInicio": "04/01/2021",
-            "dataFim": "04/01/2021"
-        },
-        {
-            "id": 5,
-            "description": "Dermocosméticos - Limpeza e Hidratação",
-            "bandeira": "Drogasil",
-            "prioridade": "0",
-            "valor": "R$ 100,00",
-            "valorMinimo": null,
-            "pontos": 300,
-            "dataInicio": "04/01/2021",
-            "dataFim": "04/01/2021"
+    "empresa":[
+        {  
+            "id":1,
+            "cpf":"18154813742",
+            "nome":"John Doe",
+            "telefone":"999426102",
+            "DDD":"22",
+            "email":"jdoe@hubspot.com"
         }
+    ],
+    "find_bulk":[
+        {
+              
+            "firstName": "John",
+            "lastName": "Doe",
+            "name": "John Doe",
+            "domain": "hubspot.com",
+            "company": "HubSpot",
+            "companyLinkedinID": 68529,
+            "email": "jdoe@hubspot.com",
+            "quality": {
+                "status": "oka"
+              }
+            },
+            {
+              "firstName": "John",
+              "lastName": "Doe",
+              "name": "John Doe",
+              "domain": "salesforce.com",
+              "company": "Salesforce",
+              "companyLinkedinID": 3185,
+              "email": "jdoe@salesforce.com",
+              "quality": {
+                "status": "oka"
+              }
+          }
         ]
 }
