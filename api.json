@@ -1,12 +1,75 @@
 {
     "empresa":[
         {  
-            "id":1,
-            "cpf":"18154813742",
-            "nome":"John Doe",
-            "telefone":"999426102",
-            "DDD":"22",
-            "email":"jdoe@hubspot.com"
+                "ni": "string",
+                "tipoEstabelecimento": "string",
+                "nomeEmpresarial": "string",
+                "nomeFantasia": "string",
+                "situacaoCadastral": {
+                   "codigo": "string",
+                   "data": "string",
+                   "motivo": "string"
+                },
+                "naturezaJuridica": {
+                   "codigo": "string",
+                   "descricao": "string"
+                },
+                "dataAbertura": "string",
+                "cnaePrincipal": {
+                   "codigo": "string",
+                   "descricao": "string"
+                },
+                "cnaeSecundarias": [
+                   {}
+                ],
+                "endereco": {
+                   "tipoLogradouro": "string",
+                   "logradouro": "string",
+                   "numero": "string",
+                   "complemento": "string",
+                   "cep": "string",
+                   "bairro": "string",
+                   "municipio": {},
+                   "pais": {}
+                },
+                "municipioJurisdicao": {
+                   "codigo": "string",
+                   "descricao": "string"
+                },
+                "telefone": [
+                   {}
+                ],
+                "correioEletronico": "string",
+                "capitalSocial": "string",
+                "porte": "string",
+                "situacaoEspecial": "string",
+                "dataSituacaoEspecial": "string",
+                "informacoesAdicionais": {
+                   "optanteSimples": "string",
+                   "optanteMei": "string"
+                },
+                "listaPeriodoSimples": [
+                   {}
+                ],
+                "socios": [
+                   {
+                      "tipoSocio": "string",
+                      "cpf": "string",
+                      "nome": "string",
+                      "qualificacao": "string",
+                      "dataInclusao": "string",
+                      "pais": {
+                         "codigo": "string",
+                         "descricao": "string"
+                      }
+                   }
+                ],
+                "representanteLegal": {
+                   "cpf": "string",
+                   "nome": "string"
+                },
+                "qualificacao": "string"
+             
         }
     ],
     "find_bulk":[
