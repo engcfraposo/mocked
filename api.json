@@ -1,47 +1,57 @@
 {
     "empresa":[
-        {  
-                "ni": "string",
-                "tipoEstabelecimento": "string",
-                "nomeEmpresarial": "string",
-                "nomeFantasia": "string",
+        {       "id": 1,
+                "ni": "96.534.094/0001-58",
+                "tipoEstabelecimento": "Matriz",
+                "nomeEmpresarial": "ACCENTURE DO BRASIL LTDA",
+                "nomeFantasia": "ACCENTURE",
                 "situacaoCadastral": {
-                   "codigo": "string",
-                   "data": "string",
+                   "codigo": "Ativa",
+                   "data": "03/11/2005",
                    "motivo": "string"
                 },
                 "naturezaJuridica": {
-                   "codigo": "string",
-                   "descricao": "string"
+                   "codigo": "206-2",
+                   "descricao": "Sociedade Empresária Limitada"
                 },
                 "dataAbertura": "string",
                 "cnaePrincipal": {
-                   "codigo": "string",
-                   "descricao": "string"
+                   "codigo": "70.20-4-00",
+                   "descricao": "Atividades De Consultoria Em Gestão Empresarial, Exceto Consultoria Técnica Específica"
                 },
                 "cnaeSecundarias": [
-                   {}
+                    {
+                        "codigo": "62.02-3-00",
+                        "descricao": "Desenvolvimento E Licenciamento De Programas De Computador Customizáveis"
+                    },
+                    {
+                        "codigo": "62.04-0-00",
+                        "descricao": "Consultoria Em Tecnologia Da Informação"
+                    }
                 ],
                 "endereco": {
-                   "tipoLogradouro": "string",
-                   "logradouro": "string",
-                   "numero": "string",
-                   "complemento": "string",
-                   "cep": "string",
-                   "bairro": "string",
-                   "municipio": {},
-                   "pais": {}
+                   "tipoLogradouro": "Rua",
+                   "logradouro": "Alexandre Dumas",
+                   "numero": "2051",
+                   "complemento": "TERREO",
+                   "cep": "04.717-004",
+                   "bairro": "Chac Sto Antonio",
+                   "municipio": "São Paulo",
+                   "pais": "Brasil"
                 },
                 "municipioJurisdicao": {
                    "codigo": "string",
                    "descricao": "string"
                 },
                 "telefone": [
-                   {}
+                   {
+                       "DDD": "11",
+                       "numero": "5188-3000"
+                   }
                 ],
-                "correioEletronico": "string",
-                "capitalSocial": "string",
-                "porte": "string",
+                "correioEletronico": "cadastroorgaopublico@accenture.com",
+                "capitalSocial": "R$ 1.075.490.923,00",
+                "porte": "Demais",
                 "situacaoEspecial": "string",
                 "dataSituacaoEspecial": "string",
                 "informacoesAdicionais": {
@@ -53,10 +63,10 @@
                 ],
                 "socios": [
                    {
-                      "tipoSocio": "string",
+                      "tipoSocio": "37",
                       "cpf": "string",
-                      "nome": "string",
-                      "qualificacao": "string",
+                      "nome": "Accenture International B.V. (Países Baixos (Holanda))",
+                      "qualificacao": "Sócio Pessoa Jurídica Domiciliado No Exterior",
                       "dataInclusao": "string",
                       "pais": {
                          "codigo": "string",
