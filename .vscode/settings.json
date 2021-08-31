@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6e76e162-7658-4029-bd02-cf52696000c4/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/mocknode",
+    "appService.deploySubpath": "."
+}
