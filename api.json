@@ -1,12 +1,20 @@
 {
-    "users":[
+    "switchs":[
         {
        "id": 1,
-       "nome": "João"
+       "value": true,
         },
         {
         "id": 2,
-        "nome": "Maria"
-        }
+        "value": true,
+        },
+        {
+        "id": 3,
+        "value": true,
+        },
+        {
+        "id": 4,
+        "value": true,
+        },
     ]
 }
